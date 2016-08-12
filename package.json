@@ -2,7 +2,7 @@
   "name": "nee",
   "version": "0.0.1",
   "description": "NodeJS EventEmitter ported to ES6",
-  "main": "event-emitter.es6.js",
+  "main": "lib/event-emitter.js",
   "directories": {
     "test": "tests"
   },

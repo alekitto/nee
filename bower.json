@@ -1,0 +1,20 @@
+{
+  "name": "nee",
+  "description": "NodeJS EventEmitter ported to ES6",
+  "main": "lib/event-emitter.js",
+  "authors": [
+    "Alessandro Chitolina <alekitto@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "event-emitter"
+  ],
+  "homepage": "https://github.com/alekitto/nee",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
