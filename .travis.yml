@@ -7,5 +7,6 @@ node_js:
 sudo: false
 
 after_success:
+    - if [ "$TRAVIS_NODE_VERSION" == "6" ]; then node_modules/.bin/babel-istanbul report --include "coverage/**/*coverage.json" clover; fi
     - if [ "$TRAVIS_NODE_VERSION" == "6" ]; then npm install https://github.com/alekitto/ocular.js.git; fi
     - if [ "$TRAVIS_NODE_VERSION" == "6" ]; then $(npm bin)/ocular coverage/clover.xml; fi
