@@ -5,8 +5,9 @@ SUCCESS=true
 
 for f in $DIR/tests/test-*.js ; do
     if [ -f "$f" ] ; then
-        printf "Executing $f... "
-        OUTPUT=$(node "$f" 2>&1)
+        BASENAME=$(basename $f)
+        printf "Executing $BASENAME... "
+        OUTPUT=$(`npm bin`/babel-istanbul cover --dir "./coverage/$BASENAME" "$f" 2>&1)
 
         if [ $? -ne 0 ] ; then
             echo -e "\xC3\x97"

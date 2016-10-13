@@ -1,6 +1,5 @@
 'use strict';
 
-require("babel-register");
 const common = require("./util/common");
 var assert = require('assert');
 var EventEmitter = require('../lib/event-emitter.js').EventEmitter;
