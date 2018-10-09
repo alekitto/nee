@@ -1,6 +1,6 @@
 {
-  "name": "nee",
-  "version": "0.0.1",
+  "name": "@alekitto/nee",
+  "version": "1.0.0",
   "description": "NodeJS EventEmitter ported to ES6",
   "main": "lib/event-emitter.js",
   "directories": {
