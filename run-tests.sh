@@ -2,6 +2,7 @@
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 SUCCESS=true
+export NODE_ENV=test
 
 for f in $DIR/tests/test-*.js ; do
     if [ -f "$f" ] ; then
