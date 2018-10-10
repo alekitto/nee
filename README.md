@@ -12,10 +12,10 @@ Nee allows you to use it while creating your JS client code, compiling it along 
 
 ### How?
 
-Install via bower
+Install via npm
 
 ```sh
-$ bower install --save nee
+$ npm i @alekitto/nee
 ```
 
 and extend the EventEmitter class in your code
