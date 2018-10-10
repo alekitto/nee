@@ -1,0 +1,7 @@
+.idea
+node_modules
+.npm
+tests
+.travis.yml
+.scrutinizer.yml
+run-tests.sh

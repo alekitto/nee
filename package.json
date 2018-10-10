@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "NodeJS EventEmitter ported to ES6",
   "main": "lib/event-emitter.js",
+  "typings": "lib/event-emitter.d.ts",
   "directories": {
     "test": "tests"
   },
