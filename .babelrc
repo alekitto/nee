@@ -2,6 +2,9 @@
   "env": {
     "test": {
       "presets": ["es2015"]
+    },
+    "dist": {
+      "presets": ["es2015"]
     }
   }
 }

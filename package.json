@@ -2,7 +2,7 @@
   "name": "@alekitto/nee",
   "version": "1.0.0",
   "description": "NodeJS EventEmitter ported to ES6",
-  "main": "lib/event-emitter.js",
+  "main": "dist/event-emitter.js",
   "typings": "lib/event-emitter.d.ts",
   "directories": {
     "test": "tests"
@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/alekitto/nee#readme",
   "devDependencies": {
+    "babel-cli": "^6.26.0",
     "babel-core": "^6.17.0",
     "babel-istanbul": "^0.11.0",
     "babel-preset-es2015": "^6.13.2"
